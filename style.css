@@ -1,0 +1,69 @@
+/* Фон всей страницы и базовые настройки */
+body {
+  background-color: #3b83bd; /* синий фон */
+  color: white;              /* белый текст */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Шапка сайта */
+header {
+  background-color: #2c6ca0; /* чуть темнее синего */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Основной контент */
+main {
+  background-color: white;  /* белый фон */
+  color: #222;              /* темный текст */
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Стили для картинок в main */
+main img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+/* Абзацы внутри main */
+main p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Подвал сайта */
+footer {
+  background-color: #2c6ca0;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Кнопка */
+.button {
+  background-color: #ffffff;
+  color: #3b83bd;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #2c6ca0;
+  color: white;
+  border-color: #2c6ca0;
+}
